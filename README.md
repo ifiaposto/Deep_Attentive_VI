@@ -12,7 +12,7 @@ pip install -r requirements.txt
 
 ## Training Attentive VAE
 
-Below, we provide the training command for several model configurations on public benchmarks.
+Below, we provide the training command for several model configurations on public benchmarks. Detailed documentation can be found in src/run.py and src/model/util.py.
 
 
 </details>
@@ -105,12 +105,17 @@ python3 run.py --mode=train --dataset=cifar10 --train_log_dir=../cifar10/ --trai
   ```
   
  </details>
+ 
+ The outputs include:
   
-  The learning curves and the performance (in terms of NELBO) on the test data are provided in the 'keras_trainer_log.csv' file.
+  * The learning curves and the performance (in terms of NELBO) on the test data are provided in the 'keras_trainer_log.csv' file.
   
-  * val_loss: the total loss of the training objective, including the regularization penalty.
-  * val_loss_1: the negative conditional likelihood term of the NELBO.
-  * val_loss_2: the KL regularization penalty of the NELBO.
+    * val_loss: the total loss of the training objective, including the regularization penalty.
+    * val_loss_1: the negative conditional likelihood term of the NELBO.
+    * val_loss_2: the KL regularization penalty of the NELBO.
+ * The weights of the learned model are in final_model.h5.
+ * The command for training the model from scratch can be found in train.sh.
+ * The command for evaluating the model can be found in eval_command.sh.
 
 
 
