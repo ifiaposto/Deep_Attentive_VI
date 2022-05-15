@@ -1,4 +1,4 @@
-# Deep Attentive Variationa Inference
+# Deep Attentive Variational Inference
 [Deep Attentive VAE](https://openreview.net/forum?id=T4-65DNlDij)  is the first work that proposes attention mechanisms to build more expressive variational distributions in deep probabilistic models. It achieves state-of-the-art log-likelihoods while using fewer latent layers and requiring less  training time than prior hierarchical VAEs. 
 
 See also:
