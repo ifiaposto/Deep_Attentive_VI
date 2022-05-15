@@ -129,10 +129,7 @@ python3 run.py --mode=train --dataset=cifar10 --train_log_dir=../cifar10/ --trai
 The training command outputs the evaluation script in the file eval_command.sh. Some sample evaluation scripts are provided below. Please refer to src/util/eval.py  for detailed documentation.
 
 The evaluation script produces in the designated folder (eval_log_dir) the following files:
-
-  * eval_test_log.csv which contains:
-      * if hparams.compute_logp=True:  [total_loss (including regularization penalty), nll (the conditional negative log-likelihood), kl (kl-loss across all layers), neblbo, marg logp (marginal loglikelihood computed by importance sampling)] .
-      * if hparams.compute_logp=False: [total_loss, nll, kl, nelbo,0.0]
+   * if hparams.compute_logp=True:  marginal loglikelihood computed by importance sampling.
    * sample_image_x.png: samples images drawn from the model if hparams.generate=True.
    * [original_test_image_x.png,reconstructed_test_image_x.png]: original vs reconstructed image (from the latent codes) if hparams.reconstruct=True.
 
@@ -163,15 +160,13 @@ python3 run.py --mode=eval --eval_log_dir=../omniglot/0_15layer_400_epochs/ --mo
 ## Saved Models 
 
 Saved models, learning curves, and qualitative evaluations of the models can be found below:
- * CIFAR-10: https://drive.google.com/file/d/1AQrc6Bx7ktLThR7GrcHzRti2VyV7hSI3/view?usp=sharing
- * OMNIGLOT: https://drive.google.com/file/d/1SSWGvQd1pTgUieSpQe7YPcfoB5XHEquc/view?usp=sharing
+ * [CIFAR-10](https://drive.google.com/file/d/1AQrc6Bx7ktLThR7GrcHzRti2VyV7hSI3/view?usp=sharing)
+ * [OMNIGLOT]( https://drive.google.com/file/d/1SSWGvQd1pTgUieSpQe7YPcfoB5XHEquc/view?usp=sharing)
 
 ## Datasets
 
-* The omniglot was partitioned and preprocessed as in https://github.com/yburda/iwae/tree/master/datasets/OMNIGLOT, and it can also be downloaded here:
-https://drive.google.com/file/d/1yceW1Lbt3oSSZx_Fy6PMZ_8LWjpRyEtV/view?usp=sharing. 
-* The rest of the datasets can be downloaed through Tensorflow Datasets:
-https://www.tensorflow.org/datasets.
+* The omniglot was partitioned and preprocessed as in [here](https://github.com/yburda/iwae/tree/master/datasets/OMNIGLOT), and it can also be downloaded [here](https://drive.google.com/file/d/1yceW1Lbt3oSSZx_Fy6PMZ_8LWjpRyEtV/view?usp=sharing). 
+* The rest of the datasets can be downloaed through [Tensorflow Datasets](https://www.tensorflow.org/datasets).
 
 ## BibTex
 Please cite our paper, if you happen to use this codebase:
