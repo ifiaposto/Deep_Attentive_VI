@@ -117,7 +117,11 @@ python3 run.py --mode=train --dataset=cifar10 --train_log_dir=../cifar10/ --trai
  * The command for training the model from scratch can be found in train.sh.
  * The command for evaluating the model can be found in eval_command.sh.
 
+## Saved Models 
 
+Saved models, learning curves, and qualitative evaluations of the models can be found below:
+ * CIFAR-10: https://drive.google.com/file/d/1AQrc6Bx7ktLThR7GrcHzRti2VyV7hSI3/view?usp=sharing
+ * OMNIGLOT: https://drive.google.com/file/d/1SSWGvQd1pTgUieSpQe7YPcfoB5XHEquc/view?usp=sharing
 
 ## Funding Information
 
