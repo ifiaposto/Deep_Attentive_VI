@@ -1,6 +1,13 @@
 # Deep Attentive Variationa Inference
 [Deep Attentive VAE](https://openreview.net/forum?id=T4-65DNlDij)  is the first work that proposes attention mechanisms to build more expressive variational distributions in deep probabilistic models. It achieves state-of-the-art log-likelihoods while using fewer latent layers and requiring less  training time than prior hierarchical VAEs. 
 
+See also:
+
+* [Paper](https://openreview.net/forum?id=T4-65DNlDij)
+* [Presentation](https://iclr.cc/media/iclr-2022/Slides/5923_VZ1HWQv.pdf)
+* [Poster](https://github.com/ifiaposto/Deep_Attentive_VI/files/8694104/deep_attentive_vae_poster.pdf
+)
+
 
 ## Requirements
 
