@@ -159,6 +159,13 @@ Saved models, learning curves, and qualitative evaluations of the models can be 
  * CIFAR-10: https://drive.google.com/file/d/1AQrc6Bx7ktLThR7GrcHzRti2VyV7hSI3/view?usp=sharing
  * OMNIGLOT: https://drive.google.com/file/d/1SSWGvQd1pTgUieSpQe7YPcfoB5XHEquc/view?usp=sharing
 
+## Datasets
+
+* The omniglot was partitioned and preprocessed as in https://github.com/yburda/iwae/tree/master/datasets/OMNIGLOT, and it can also be downloaded here:
+https://drive.google.com/file/d/1yceW1Lbt3oSSZx_Fy6PMZ_8LWjpRyEtV/view?usp=sharing. 
+* The rest of the datasets can be downloaed through Tensorflow Datasets:
+https://www.tensorflow.org/datasets.
+
 ## Funding Information
 
 Funding for the development of this library has been generously provided by the following sponsors:
