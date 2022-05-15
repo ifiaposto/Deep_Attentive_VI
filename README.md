@@ -1,5 +1,5 @@
 # Deep Attentive Variationa Inference
-Author's implementation of the paper: "Deep Attentive Variational Inference", ICLR 2022
+[Deep Attentive VAE](https://openreview.net/forum?id=T4-65DNlDij)  is the first work that proposes attention mechanisms to build more expressive variational distributions in deep probabilistic models. It achieves state-of-the-art log-likelihoods while using fewer latent layers and requiring less  training time than prior hierarchical VAEs. 
 
 
 ## Requirements
@@ -165,6 +165,20 @@ Saved models, learning curves, and qualitative evaluations of the models can be 
 https://drive.google.com/file/d/1yceW1Lbt3oSSZx_Fy6PMZ_8LWjpRyEtV/view?usp=sharing. 
 * The rest of the datasets can be downloaed through Tensorflow Datasets:
 https://www.tensorflow.org/datasets.
+
+## BibTex
+Please cite our paper, if you happen to use this codebase:
+
+
+```
+
+@inproceedings{apostolopoulou2021deep,
+  title={Deep Attentive Variational Inference},
+  author={Apostolopoulou, Ifigeneia and Char, Ian and Rosenfeld, Elan and Dubrawski, Artur},
+  booktitle={International Conference on Learning Representations},
+  year={2021}
+}
+```
 
 ## Funding Information
 
