@@ -166,7 +166,7 @@ Saved models, learning curves, and qualitative evaluations of the models can be 
 ## Datasets
 
 * The omniglot was partitioned and preprocessed as in [here](https://github.com/yburda/iwae/tree/master/datasets/OMNIGLOT), and it can also be downloaded [here](https://drive.google.com/file/d/1yceW1Lbt3oSSZx_Fy6PMZ_8LWjpRyEtV/view?usp=sharing). 
-* The rest of the datasets can be downloaed through [Tensorflow Datasets](https://www.tensorflow.org/datasets).
+* The rest of the datasets can be downloaded through [Tensorflow Datasets](https://www.tensorflow.org/datasets).
 
 ## BibTex
 Please cite our paper, if you happen to use this codebase:
