@@ -5,7 +5,7 @@ See also:
 
 * [Paper](https://openreview.net/forum?id=T4-65DNlDij)
 * [Presentation](https://iclr.cc/media/iclr-2022/Slides/5923_VZ1HWQv.pdf)
-* [Poster](https://github.com/ifiaposto/Deep_Attentive_VI/files/8694104/deep_attentive_vae_poster.pdf
+* [Poster](https://github.com/ifiaposto/Deep_Attentive_VI/files/8694104/deep_attentive_vae_poster.pdf)
 )
 
 
